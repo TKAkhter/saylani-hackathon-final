@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.js": "/saylani-hackathon-final/static/js/main.1025f7cc.chunk.js",
+    "main.js.map": "/saylani-hackathon-final/static/js/main.1025f7cc.chunk.js.map",
+    "runtime-main.js": "/saylani-hackathon-final/static/js/runtime-main.318e0120.js",
+    "runtime-main.js.map": "/saylani-hackathon-final/static/js/runtime-main.318e0120.js.map",
+    "static/js/2.c8ceaf5f.chunk.js": "/saylani-hackathon-final/static/js/2.c8ceaf5f.chunk.js",
+    "static/js/2.c8ceaf5f.chunk.js.map": "/saylani-hackathon-final/static/js/2.c8ceaf5f.chunk.js.map",
+    "index.html": "/saylani-hackathon-final/index.html",
+    "static/js/2.c8ceaf5f.chunk.js.LICENSE.txt": "/saylani-hackathon-final/static/js/2.c8ceaf5f.chunk.js.LICENSE.txt",
+    "static/media/bg-profile.af1219a7.jpeg": "/saylani-hackathon-final/static/media/bg-profile.af1219a7.jpeg",
+    "static/media/bg-sign-in-basic.f327db1d.jpeg": "/saylani-hackathon-final/static/media/bg-sign-in-basic.f327db1d.jpeg",
+    "static/media/bg-sign-up-cover.30c5950b.jpeg": "/saylani-hackathon-final/static/media/bg-sign-up-cover.30c5950b.jpeg",
+    "static/media/bruce-mars.8a606c4a.jpg": "/saylani-hackathon-final/static/media/bruce-mars.8a606c4a.jpg",
+    "static/media/github.067f80f3.svg": "/saylani-hackathon-final/static/media/github.067f80f3.svg",
+    "static/media/home-decor-1.05e218fd.jpg": "/saylani-hackathon-final/static/media/home-decor-1.05e218fd.jpg",
+    "static/media/home-decor-2.b4e5397c.jpg": "/saylani-hackathon-final/static/media/home-decor-2.b4e5397c.jpg",
+    "static/media/home-decor-3.74d13fcb.jpg": "/saylani-hackathon-final/static/media/home-decor-3.74d13fcb.jpg",
+    "static/media/home-decor-4.5b448fd3.jpeg": "/saylani-hackathon-final/static/media/home-decor-4.5b448fd3.jpeg",
+    "static/media/ivana-square.f7bc23b2.jpg": "/saylani-hackathon-final/static/media/ivana-square.f7bc23b2.jpg",
+    "static/media/kal-visuals-square.3210e28a.jpg": "/saylani-hackathon-final/static/media/kal-visuals-square.3210e28a.jpg",
+    "static/media/logo-asana.d758f410.svg": "/saylani-hackathon-final/static/media/logo-asana.d758f410.svg",
+    "static/media/logo-atlassian.f2b0e857.svg": "/saylani-hackathon-final/static/media/logo-atlassian.f2b0e857.svg",
+    "static/media/logo-invision.a1062115.svg": "/saylani-hackathon-final/static/media/logo-invision.a1062115.svg",
+    "static/media/logo-jira.c19fd4e4.svg": "/saylani-hackathon-final/static/media/logo-jira.c19fd4e4.svg",
+    "static/media/logo-slack.7c47c5aa.svg": "/saylani-hackathon-final/static/media/logo-slack.7c47c5aa.svg",
+    "static/media/logo-spotify.e83cf56c.svg": "/saylani-hackathon-final/static/media/logo-spotify.e83cf56c.svg",
+    "static/media/logo-xd.6e37886f.svg": "/saylani-hackathon-final/static/media/logo-xd.6e37886f.svg",
+    "static/media/marie.c28f3266.jpg": "/saylani-hackathon-final/static/media/marie.c28f3266.jpg",
+    "static/media/mastercard.27fca3e7.png": "/saylani-hackathon-final/static/media/mastercard.27fca3e7.png",
+    "static/media/pattern-tree.156bb943.svg": "/saylani-hackathon-final/static/media/pattern-tree.156bb943.svg",
+    "static/media/team-1.0fd36e0e.jpg": "/saylani-hackathon-final/static/media/team-1.0fd36e0e.jpg",
+    "static/media/team-2.13ae2ce3.jpg": "/saylani-hackathon-final/static/media/team-2.13ae2ce3.jpg",
+    "static/media/team-3.0ef0be95.jpg": "/saylani-hackathon-final/static/media/team-3.0ef0be95.jpg",
+    "static/media/team-4.85c82b6e.jpg": "/saylani-hackathon-final/static/media/team-4.85c82b6e.jpg",
+    "static/media/visa.71c0d5e9.png": "/saylani-hackathon-final/static/media/visa.71c0d5e9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.318e0120.js",
+    "static/js/2.c8ceaf5f.chunk.js",
+    "static/js/main.1025f7cc.chunk.js"
+  ]
+}
