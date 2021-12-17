@@ -342,41 +342,41 @@ app.get("/**", (req, res, next) => {
   // res.redirect("/")
 });
 
-const { Server } = require("socket.io");
+// const { Server } = require("socket.io");
 
-// handing over server access to socket.io
-const io = new Server(server, {
-  cors: {
-    origin: "*",
-    methods: "*",
-  },
-});
+// // handing over server access to socket.io
+// const io = new Server(server, {
+//   cors: {
+//     origin: "*",
+//     methods: "*",
+//   },
+// });
 
-io.on("connection", (socket) => {
-  console.log("New client connected with id: ", socket.id);
+// io.on("connection", (socket) => {
+//   console.log("New client connected with id: ", socket.id);
 
-  // to emit data to a certain client
-  socket.emit("topic 1", "some data 23");
+//   // to emit data to a certain client
+//   socket.emit("topic 1", "some data 23");
 
-  // collecting connected users in a array
-  // connectedUsers.push(socket)
+//   // collecting connected users in a array
+//   // connectedUsers.push(socket)
 
-  socket.on("disconnect", (message) => {
-    console.log("Client disconnected with id: ", message);
-  });
-});
+//   socket.on("disconnect", (message) => {
+//     console.log("Client disconnected with id: ", message);
+//   });
+// });
 
-// to emit data to a certain client
-//  connectedUsers[0].emit("topic 1", "some data")
+// // to emit data to a certain client
+// //  connectedUsers[0].emit("topic 1", "some data")
 
-setInterval(() => {
-  // to emit data to all connected client
-  // first param is topic name and second is json data
-  io.emit("Test topic", {
-    event: "ADDED_ITEM",
-    data: "some data",
-  });
-  console.log("emiting data to all client");
-}, 10000);
+// setInterval(() => {
+//   // to emit data to all connected client
+//   // first param is topic name and second is json data
+//   io.emit("Test topic", {
+//     event: "ADDED_ITEM",
+//     data: "some data",
+//   });
+//   console.log("emiting data to all client");
+// }, 10000);
 
 module.exports = app;
