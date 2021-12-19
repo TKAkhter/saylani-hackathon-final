@@ -12,7 +12,7 @@ function App() {
   let [isLogged, setIsLogged] = useState(false);
   // useEffect(() => {
   //   axios
-  //     .get(`${baseUrl}/api/v1/getcookie`, { withCredentials: true })
+  //     .get(`https://mern-socket.herokuapp.com/api/v1/getcookie`, { withCredentials: true })
   //     .then((res) => {
   //       setIsLogged(true);
   //     })
@@ -21,7 +21,7 @@ function App() {
   //     });
   // }, [isLogged]);
   axios
-    .get(`${baseUrl}/api/v1/getcookie`, { withCredentials: true })
+    .get(`https://mern-socket.herokuapp.com/api/v1/getcookie`, { withCredentials: true })
     .then((res) => {
       setIsLogged(true);
     })

@@ -8,7 +8,7 @@ function Profile() {
 
   useEffect(() => {
     axios
-      .get(`${baseUrl}/api/v1/profile`, {
+      .get(`https://mern-socket.herokuapp.com/api/v1/profile`, {
         withCredentials: true,
       })
       .then((res) => {

@@ -31,7 +31,7 @@ const Posts = () => {
 
   useEffect(() => {
     axios
-      .get(`${baseUrl}/api/v1/post`, { withCredentials: true })
+      .get(`https://mern-socket.herokuapp.com/api/v1/post`, { withCredentials: true })
       .then((res) => {
         console.log("res: ", res.data);
         settodo(res.data);
@@ -50,7 +50,7 @@ const Posts = () => {
       console.log("values: ", values);
       axios
         .post(
-          `${baseUrl}/api/v1/post`,
+          `https://mern-socket.herokuapp.com/api/v1/post`,
           {
             title: values.title,
             description: values.description,
@@ -72,7 +72,7 @@ const Posts = () => {
 
   const deletePost = (id) => {
     axios
-      .delete(`${baseUrl}/api/v1/post`, {
+      .delete(`https://mern-socket.herokuapp.com/api/v1/post`, {
         data: {
           id: id.target.parentNode.id,
           access_token: state.user.access_token,

@@ -62,7 +62,7 @@ const Header = () => {
               onClick={() => {
                 axios
                   .post(
-                    `${baseUrl}/api/v1/logout`,
+                    `https://mern-socket.herokuapp.com/api/v1/logout`,
                     {},
                     {
                       withCredentials: true,

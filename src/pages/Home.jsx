@@ -13,7 +13,7 @@ function Home() {
 
   useEffect(() => {
     axios
-      .get(`${baseUrl}/api/v1/profile`, {
+      .get(`https://mern-socket.herokuapp.com/api/v1/profile`, {
         withCredentials: true,
         params: {
           email: state.user.email,

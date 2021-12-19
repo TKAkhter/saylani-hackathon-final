@@ -68,7 +68,7 @@ const SignUp = () => {
     onSubmit: function (values) {
       console.log("values: ", values);
       axios
-        .post(`${baseUrl}/api/v1/user`, {
+        .post(`https://mern-socket.herokuapp.com/api/v1/user`, {
           firstName: values.firstName,
           lastName: values.lastName,
           email: values.email,
