@@ -1,0 +1,9 @@
+2023-03-25 21:38:31 INFO  {"reqObject":{"method":"POST","path":"/chat","param":{},"body":{"question":"are you cha gpt 3 or 4?"}},"resObject":{"statusCode":200}} 
+2023-03-25 21:39:00 INFO  {"reqObject":{"method":"POST","path":"/chat","param":{},"body":{"question":"are you cha gpt 3 or 4?"}},"resObject":{"statusCode":200}} 
+2023-03-25 21:40:14 INFO  {"reqObject":{"method":"POST","path":"/chat","param":{},"body":{"question":"are you cha gpt 3 or 4?"}},"resObject":{"statusCode":200}} 
+2023-03-25 21:40:43 INFO  {"reqObject":{"method":"POST","path":"/chat","param":{},"body":{"question":"are you cha gpt 3 or 4?"}},"resObject":{"statusCode":200}} 
+2023-03-25 21:41:05 INFO  {"reqObject":{"method":"POST","path":"/chat","param":{},"body":{"question":"are you cha gpt 3 or 4?"}},"resObject":{"statusCode":200}} 
+2023-03-25 21:41:49 INFO  {"reqObject":{"method":"POST","path":"/chat","param":{},"body":{"question":"are you cha gpt 3 or 4?"}},"resObject":{"statusCode":200}} 
+2023-03-25 21:42:27 INFO  {"reqObject":{"method":"POST","path":"/chat","param":{},"body":{"question":"are you cha gpt 3 or 4?"}},"resObject":{"statusCode":200}} 
+2023-03-25 21:43:00 INFO  {"reqObject":{"method":"POST","path":"/chat","param":{},"body":{"question":"are you cha gpt 3 or 4?"}},"resObject":{"statusCode":200}} 
+2023-03-25 21:58:37 INFO  {"reqObject":{"method":"POST","path":"/chat","param":{},"body":{"question":"give me a code for todoapp"}},"resObject":{"statusCode":200}} 
